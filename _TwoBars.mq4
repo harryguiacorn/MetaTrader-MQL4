@@ -55,14 +55,14 @@ int OnCalculate(const int rates_total,const int prev_calculated,const datetime &
       && Close[i] < Low[i+2] // The close of third(current) bar is less than the low of first bar  
       && High[i+1] < High[i+2] //The high of second bar should not exceed the high of triger bar
       && High[i] < High[i+2] //The high of third(current) bar should not exceed the high of triger bar
-      && Low[i] < Low[i+1]
+      && Low[i] < Low[i+1]// The low of the third(current) bar should be lower than the low of the second bar
       )
       {
          //Print(TimeToStr(Time[i]), " :: ", Close[i], "  <  ", Close[i+2], " :: ", TimeToStr(Time[i+2]), " bullishSignLast:",bullishSignLast, " bearishSignLast:", bearishSignLast);
          if(bullishSignLast || firstSignal)
          {
             firstSignal = false;
-            Dn[i]= Close[i];//High[i]+arrow_indent*Point; //down arrow
+            Dn[i]= High[i];//High[i]+arrow_indent*Point; //down arrow
             bullishSignLast = false;
             bearishSignLast = true;
          }
@@ -84,7 +84,7 @@ int OnCalculate(const int rates_total,const int prev_calculated,const datetime &
          if(bearishSignLast || firstSignal)
          {
             firstSignal = false;
-            Up[i]= Close[i];//Low[i]-arrow_indent*Point; //up arrow
+            Up[i]= Low[i];//Low[i]-arrow_indent*Point; //up arrow
             bearishSignLast = false;
             bullishSignLast = true;
          }
