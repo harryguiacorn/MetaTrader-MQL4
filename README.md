@@ -77,6 +77,18 @@ Therefore, when the MACD histogram ticks up when the price is above the Ichimoku
 
 ![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/288f4705-8fb8-462b-9bf9-a5aab0eaf5c3)
 
+## John Carter's Mastering the Trade (Chapter 8 - Scalper)
+TRADING RULES FOR BUYS (SELLS ARE REVERSED)
 
+- Set up a 24-hour chart on intraday charts so the overnight activity can be accounted for in this indicator setup. This can be used in all timeframes. The larger the timeframe, the larger the parameters and potential move. For daily charts I will use the regular session hours.
 
+- After three consecutive higher closes, I go long at the market, at the close of the third bar in the sequence.
+
+- The trade is valid until three consecutive lower closes occur, at which point I exit the trade. If the market is still open for an intraday trade, I will simultaneously exit a long and establish a new short position. I don't use a stop loss on this for intraday chart trades because the reversal signal is my exit strategy, whether it is a loss or a gain. For daily charts I will place a stop at the low of the bar that caused the signal to fire off, which is the first of three in the sequence of closes.
+
+- If I'm in an intraday trade (15-minute chart or smaller) and the market closes before giving an exit signal, I will exit at the market at 4:10 p.m. Eastern.
+
+- For timeframes that are 60 minutes and above, I will stay in them overnight and exit at the next signal. This could be the next day for a 60-minute chart, and it could be a month later for daily charts.
+
+![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/4f7e4552-7f51-46fa-8c89-b6911ec09cc1)
 
