@@ -69,6 +69,13 @@ This indicator increases the thickness of candle wicks, making them more visuall
 
 ![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/8027266c-f4be-4c78-98fd-f9aa32209d46)
 
+## MACD - Cloud
+
+The MACD indicator is used to gauge momentum and identify potential trading opportunities when the MACD histogram loses momentum, the Ichimoku cloud acts as the overall direction gauge. 
+
+Therefore, when the MACD histogram ticks up when the price is above the Ichimoku cloud, it indicates the short-term downtrend momentum is coming to an end, and the uptrend is about to resume.
+
+![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/288f4705-8fb8-462b-9bf9-a5aab0eaf5c3)
 
 
 
