@@ -45,7 +45,7 @@ int start()
       Low[i+1] < Low[i+2]
       ) 
       { 
-         Up[i]= Close[i+1] - _offsetArrow;
+         Up[i]= Low[i+1] - _offsetArrow;
          //ObjectCreate("Bullish",OBJ_TEXT);
          ObjectSetText("Bullish", DoubleToStr(Ask-Bid, Digits));
       }
@@ -61,7 +61,7 @@ int start()
       Low[i+1] < Low[i+2]
       )
       { 
-         Dn[i]= Close[i+1] + _offsetArrow;
+         Dn[i]= High[i+1] + _offsetArrow;
       }
       
    }
