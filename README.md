@@ -55,8 +55,11 @@ The Cloud Radar screen gives a one-glance analysis of the instruments broken dow
 
 ![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/7c145828-13c1-48bb-a480-5b8b0615a0a9)
 
+## Engulfing Bar
+- Standard engulfing bar: The body of the second bar completely engulfs the body of the first bar, indicating a price reversal (bullish or bearish). For example, if the 1st bar is a bull bar and the 2nd bar's body is bigger and it's a bear bar, it qualifies as an engulfing bearish signal.
+- Walter Peters' definition: This definition builds upon the standard engulfing bar. It requires not only the body of the second bar to engulf the first but also the range (the difference between the high and the low) of the second bar to be larger than the range of the first bar.
 
-
+![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/c2992082-abac-41e5-a9ee-db14719f650c)
 
 
 
