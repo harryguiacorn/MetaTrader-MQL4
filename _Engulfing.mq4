@@ -46,7 +46,7 @@ int start()
          
          if(_biggestCandle(i+1,BiggestCandlePeriod))
          {
-            Up[i]= Open[i]; 
+            Up[i]= Low[i]; 
          }
       }
       
@@ -60,7 +60,7 @@ int start()
       { 
          if(_biggestCandle(i+1,BiggestCandlePeriod))
          {
-            Dn[i]= Open[i]; 
+            Dn[i]= High[i]; 
          }
       }
       
