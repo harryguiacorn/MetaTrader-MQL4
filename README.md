@@ -92,3 +92,16 @@ TRADING RULES FOR BUYS (SELLS ARE REVERSED)
 
 ![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/4f7e4552-7f51-46fa-8c89-b6911ec09cc1)
 
+## Two Bar Candlestick Pattern
+
+Bearish Signal Conditions  (BUYs ARE REVERSED):
+- The close of third(current) bar is less than the close of first bar
+- The close of second bar is less than the close of first bar
+- The close of third(current) bar is less than the low of first bar  
+- The high of second bar should not exceed the high of triger bar
+- The high of third(current) bar should not exceed the high of triger bar
+- The low of the third(current) bar should be lower than the low of the second bar
+
+![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/76a69927-f704-4bf3-a31f-5c5fd5faf144)
+
+
