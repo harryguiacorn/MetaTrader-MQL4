@@ -61,6 +61,13 @@ The Cloud Radar screen gives a one-glance analysis of the instruments broken dow
 
 ![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/c2992082-abac-41e5-a9ee-db14719f650c)
 
+## Fat Wick
+
+This indicator increases the thickness of candle wicks, making them more visually prominent. This can help traders spot sharp price reversals and potential stop-hunting activity.
+
+![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/3eb03777-01d0-424e-ac06-a2de692536d3)
+
+![image](https://github.com/harryguiacorn/MetaTrader-MQL4/assets/1398153/8027266c-f4be-4c78-98fd-f9aa32209d46)
 
 
 
